@@ -52,8 +52,8 @@ const generateMockOnlineUsers = (): User[] => {
   const mockUsers = [
     { id: '158435', name: 'Ana Júlia Furtado', email: '12345@student.edu', level: 10, totalScore: 1250, gamesPlayed: 8, correctAnswers: 45 },
     { id: '148723', name: 'Natã da Silva Almeida', email: '12345@student.edu', level: 10, totalScore: 1250, gamesPlayed: 8, correctAnswers: 45 },
-    { id: '111111', name: 'Livia', email: '12345@student.edu', level: 7, totalScore: 1100, gamesPlayed: 5, correctAnswers: 22 },
-    { id: '222222', name: 'Lucas', email: '12345@student.edu', level: 4, totalScore: 900, gamesPlayed: 5, correctAnswers: 30 }];
+    { id: '176563', name: 'Livia de Moura Carvalho', email: '12345@student.edu', level: 7, totalScore: 1100, gamesPlayed: 5, correctAnswers: 22 },
+    { id: '1639111', name: 'Lucas Alves Marques', email: '12345@student.edu', level: 4, totalScore: 900, gamesPlayed: 5, correctAnswers: 30 }];
   
   // Randomly select 3-6 users to be "online"
   const shuffled = mockUsers.sort(() => 0.5 - Math.random());
