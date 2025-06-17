@@ -41,6 +41,7 @@ export interface GameRoom {
   questionIndex: number;
   timeRemaining: number;
   scores: Record<string, number>;
+  lastUpdate: number; // NOVO
 }
 
 export type GameState = 'waiting' | 'playing' | 'question' | 'results' | 'finished';
